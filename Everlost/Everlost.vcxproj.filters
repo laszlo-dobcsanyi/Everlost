@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{2332605a-b89f-45a7-bd7b-8f1770945d2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{7f7136d5-731e-442d-bafd-3435c8590298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{df9434c9-3f40-438a-9214-b83db8af051b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Windows">
+      <UniqueIdentifier>{5a7c3e16-e2d3-4ee7-b343-2a9fc5b36678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Layers">
+      <UniqueIdentifier>{442cdb39-3f8d-4448-8f65-b10993815388}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Core.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Macro.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Logger.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Connection.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Packet.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Resources.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Unit.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Character.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Window.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Tile.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ListProcessable.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ListLockable.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Object.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Layer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Window_Game.h">
+      <Filter>Graphics\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Window_Launcher.h">
+      <Filter>Graphics\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Layer_Game_Invitation.h">
+      <Filter>Graphics\Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\TextBox.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Button.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Layer_Game_Group.h">
+      <Filter>Graphics\Layers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Core.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Logger.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Connection.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Connection_HandleMessage.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Packet.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Resources.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Unit.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Character.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Tile.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Object.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Window_Game.cpp">
+      <Filter>Graphics\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Window_Game_Graphics.cpp">
+      <Filter>Graphics\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Window_Game_Interaction.cpp">
+      <Filter>Graphics\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Window_Launcher.cpp">
+      <Filter>Graphics\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Layer_Game_Invitation.cpp">
+      <Filter>Graphics\Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Button.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\TextBox.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Layer_Game_Group.cpp">
+      <Filter>Graphics\Layers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
